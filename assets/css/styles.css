@@ -7,3 +7,15 @@
     --blanco: #ffffff;
     --nergo: #000000;
 }
+
+/* -- Preformateo -- */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, 
+*:before, 
+*:after{
+    box-sizing: border-box;
+}
