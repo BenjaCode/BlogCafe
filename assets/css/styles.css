@@ -70,3 +70,10 @@ img{
 .centrar-texto{
     text-align: center;
 }
+
+/* -- Contenedor -- */
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
