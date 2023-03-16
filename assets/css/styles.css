@@ -77,6 +77,7 @@ img{
 .contenedor{
     max-width: 120rem;
     width: 90%;
+    /* En vez de max width y width - min-width: (90%, 120rem); */
     margin: 0 auto;
 }
 
@@ -210,4 +211,12 @@ img{
 
 .widget-curso__info{
     font-weight: normal;
+}
+
+/* -- Footer -- */
+
+.footer{
+    background-color: var(--nergo);
+    padding: 3rem;
+    margin-top: 4rem;
 }
