@@ -5,6 +5,7 @@
 
     --colorPrimario: #784D3C;
     --blanco: #ffffff;
+    --gris: #e1e1e1;
     --nergo: #000000;
 }
 
@@ -132,4 +133,46 @@ img{
     color: var(--blanco);
     font-size: 1.8rem;
     text-align: center;
+}
+
+/* -- Blog -- */
+
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px){
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+
+.boton{
+    display: block;
+    font-family: var(--fuenteEncabezados);
+    text-align: center;
+    padding: 1rem 3rem;
+    color: var(--blanco);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    .boton{
+        display: inline-block;
+    }
+}
+
+.boton--primario{
+    background-color: var(--nergo);
 }
