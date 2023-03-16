@@ -83,7 +83,15 @@ img{
 
 /* -- Header -- */
 
-.header{
+.webp .header{
+    background-image: url(../img/banner.webp);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.no-webp .header{
     background-image: url(../img/banner.jpg);
     height: 60rem;
     background-size: cover;
