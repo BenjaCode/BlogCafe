@@ -235,3 +235,36 @@ img{
         margin-top: 0 !important;
     }
 }
+
+/* -- Cursos -- */
+
+.curso{
+    border-bottom: 1px solid var(--gris);
+    padding: 3rem 0;
+}
+
+.curso:last-child{
+    border-bottom: none;
+}
+
+@media screen and (min-width: 768px){
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.curso__label,
+.curso__info{
+    font-size: 2rem;
+    font-family: var(--fuenteEncabezados);
+}
+
+.curso__label{
+    font-weight: bold;
+}
+
+.curso__info{
+    font-weight: normal;
+}
